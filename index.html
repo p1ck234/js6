@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab6</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div>
+        <form name="f">
+            <span id="s" class=c></span>
+            <table>
+                <tr>
+                    <td>Имя</td>
+                    <td><input type=text name=p1 size=20></td>
+                    <td class=c>*</td>
+                </tr>
+                <tr>
+                    <td>Фамилия</td>
+                    <td><input type=text name=p2 size=20></td>
+                    <td class=c>*</td>
+                </tr>
+                <tr>
+                    <td>Телефон</td>
+                    <td><input type=text name=p3 size=20></td>
+                    <td>8(917)23-24-456</td>
+                </tr>
+                <tr>
+                    <td>Электронный адрес</td>
+                    <td><input type=text name=p4 size=20></td>
+                    <td class=c>*</td>
+                </tr>
+                <tr>
+                    <td colspan=3><input type="button" value="Отправить" onClick=check()></input></td>
+                </tr>
+                <tr>
+                    <td colspan=3> * - Поля обязательные для заполнения</td>
+                </tr>
+        </form>
+    </div>
+    <div>
+        <form name="f1">
+            <span id="b">Введите строку</span><br>
+            <textarea name="pole" cols=40 rows=8></textarea><br>
+            <input type="button" value="Отправить" onClick=check2()></input>
+        </form>
+    </div>
+    <div>
+        <form name="f2">
+            <span id="n">Введите строку</span><br>
+            <textarea name="pole" cols=40 rows=8></textarea><br>
+            <input type="button" value="Отправить" onClick=check3()></input>
+        </form>
+    </div>
+</body>
+
+</html>
